@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLICTA</title>
+    <style>
+        <header style="background-color: white; color: black; padding: 20px;">
+         <h1>SLICTA</h1>
+    </style>
+</head>
+<style>
+    body {
+       background-color: #ffffff; /* White background */
+       color: #000000; /* black text */
+    }
+
+    header, nav, footer {
+        background-color: #000000; /* black background */
+        color: #ffffff; /* white text */
+    }
+    body {
+        font-family: 'Courier', Verdana;
+        font-size: 16px;
+        line-height: bold;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    p {
+       margin-bottom: 20px;
+    }
+
+    .container {
+        width: 80%; /* Adjust width as needed */
+        margin: 0 auto; /* Center content horizontally */
+    }
+
+    section {
+       padding: 20px;
+       margin-bottom: 30px;
+    }
+
+    nav a {
+        padding: 10px 20px;
+        margin-right; 10px;
+    }
+
+    footer {
+         padding: 20px;
+         text-align: left
+         ;
+    }
+
+    a:hover {
+       color: #999999; /* Light gray color on hover */
+    }
+
+    button:hover {
+       background-color: #999999; /* Light gray background on hover */
+       color: #808080; /* Grey text on hover */
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .fadeIn {
+         animation: fadeIn 1s ease-in-out;
+    body {
+       background-color: #f0f0f0; /* Light gray background */
+       background-image: linear-gradient(to right, #ffcc00, #ff6699); /* Linear gradient from blue to gray */
+       background-attachment;fixed /* Fixed background */
+       background-size: cover; /* Cover the entire viewport */
+    }
+
+</style>
+<body>
+<section id="home">
+    <!-- Content of the home section -->
+</section>
+
+
+<section id="about">
+         <!-- Content of the about section -->
+</section>
+
+
+<section id="programs">
+    <!-- Content of the programs section -->
+</section>
+
+
+<section id="careers">
+    <!-- Content of the careers section -->
+</section>
+
+
+<section id="donate">
+    <!-- Content of the donate section -->
+</section>
+
+
+<section id="partners">
+    <!-- Content of the partners section -->
+</section>
+<section id="contacts us">
+    <!-- Content of the contact us section -->
+</section>
+<nav style="background-color: white; padding: 10px;">
+    <a href="home">Home</a>
+    <a href="about">About</a>
+    <a href="programs">Programs</a>
+    <a href="careers">Careers</a>
+    <a href="donate">Donate</a>
+    <a href="partners">Partners</a>
+    <a href="contact us">Contacts Us</a>
+</nav>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></></script>
+<script>
+    $(document).ready(function(){
+        // Smooth scrolling for links with hash tags
+        $('a[href^="#"]').on('click', function(event) {
+            var target = $(this.getAttribute('href'));
+            if( target.length ) {
+                event.preventDefault();
+                $('html, body').stop().animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+           }
+    });
+ });
+</script>
+         <nav>
+             <ul>
+                 <li><a href="">Home</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Programs</a></li>
+                 <li><a href="#">Careers</a></li>
+                 <li><a href="#">Donate</a></li>
+                 <li><a href="#">Partners</a></li>
+                 <li><a href="#">Contact Us</a></li>
+             </ul>
+         </nav>
+     <section style="padding: 20px;">
+         <h2>Welcome to Our Website</h2>
+         <p>.Thank you for visiting our website. we aim to provide valuable information and services to our visitors.</p>
+     </section>
+<section style="padding: 20px;">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Web Design<</li>
+        <li>Graphic Design</li>
+        <li>Digital Marketing</li>
+    </ul>
+</section>
+<section style="padding: 20px;">
+    <h2>About Us</h2>
+    <p>We are a team of passionate individuals dedicated to delivering high-quality services to our clients.</p>
+</section>
+<section style="padding: 20px">
+    <h2>Our Logo</h2>
+    <img src="logo.png" alt="Photo">
+</section>
+<section style="padding: 20px;">
+    <h2>Contact Us</h2>
+    <p>For inquiries, please email us at <a href="SLICTA@gmail.com">SLICTA@gmail.com</a> or call us ar +1234567890.</p>
+</section>
+<section style="padding: 20px;">
+    <h2>Testimonials</h2>
+    <blockquote>
+        "Great service! I'm very satisfied with the results."
+    </blockquote>
+</section>
+<section style="padding: 20px;">
+    <h2>Featured Blog Post</h2>
+    <article>
+        <h3>10 Tips for Improving Your Website Design</h3>
+        <a href="#">Read More</a>
+    </article>
+</section>
+<footer style="background-color: black; color: white; padding: 20px; text-align: center:">
+    <p>&copy;2024 SLICTA. All rights reserved. IG<a href="@SLICTA">@SLICTA</a>   Facebook<a href="SLICTA.ORG">SLICTA.ORG</a> </p>
+</footer>
+</body>
+</html>
